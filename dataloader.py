@@ -100,7 +100,7 @@ def word_embeddings(stances):
 
 def train_w2v_model(stances, articles):
     addtional_signs = ["<sos>", "<unk>", "<pad>", "<eos>"]
-    corpus = stances + articles
+    corpus = stances + articles + addtional_signs
     print("Start training")
     model = Word2Vec(corpus, min_count=1, workers=8)
     model.save('./w2v.model')
