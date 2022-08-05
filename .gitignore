@@ -1,0 +1,6 @@
+
+*.pyc
+*.model
+w2v.model
+fnc-1/
+GoogleNews-vectors-negative300.bin
