@@ -7,3 +7,6 @@ __py*
 w2v.model
 fnc-1/
 GoogleNews-vectors-negative300.bin
+cache_dir/
+outputs/
+runs/
